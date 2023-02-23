@@ -1,0 +1,33 @@
+body {
+    background-color: lightgreen;
+}
+
+#grid-container {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    max-width: 960px;
+    height: 960px;
+    align-content: flex-start;
+    color: white;
+    justify-content: center;    
+    align-content: center;
+}
+
+.grid-element {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.hover {
+    background-color: red;
+}
+
+/* .active {
+    background-color:coral;
+} */
